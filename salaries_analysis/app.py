@@ -116,7 +116,7 @@ fig2.add_trace(go.Scatter(
     line=dict(color='royalblue', width=3)
 ))
 
-# Add predictions data as points with circles around them to represent errors
+# Add predictions data 
 fig2.add_trace(go.Scatter(
     x=x_pred,
     y=predictions,
