@@ -8,8 +8,9 @@ Created on Thu Nov  7 11:27:46 2024
 
 import pandas as pd
 
+
 # Load the CSV file
-file_path = 'salaries_DS.csv'  
+file_path = './salaries_DS.csv' 
 data = pd.read_csv(file_path)
 
 # display basic info
