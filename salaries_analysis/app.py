@@ -5,11 +5,9 @@ Created on Thu Nov  7 11:16:49 2024
 
 @author: tomepton
 
-
-so far this has taken 120 minutes 
 """
 
-# streamlit_wind_tunnel.py
+# streamlit
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -24,12 +22,12 @@ from scipy.interpolate import make_interp_spline
 
 st.set_page_config(
     page_title="Pytri Data Services",
-    page_icon="logo.ico",  # Replace with the path to your logo file
+    page_icon="logo.ico",  
     layout="wide"
 )
 
 # Sidebar for logo and contact information
-st.sidebar.image("logo.png", use_column_width=True)  # Replace 'logo.png' with your image filename
+st.sidebar.image("logo.png", use_column_width=True)  
 st.sidebar.markdown("### Pytri Data Services")
 st.sidebar.write("_Turning Data into Information_")
 
